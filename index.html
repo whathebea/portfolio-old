@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/8bb2b6edd2.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">bea</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link ">inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">sobre</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">habilidades</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">projetos</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">contato</a>
+                        </li>
+                    </ul>
+                    <i class="fas fa-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+</header>
+
+<!--==================== MAIN ====================-->
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__content grid">
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/beatriz-gracia-dos-santos-2762bb21b/" class="home__social-icon" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/whathebea" class="home__social-icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://codepen.io/whathebea" class="home__social-icon" target="_blank">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </div>
+
+                <div class="home__img">
+                    <img src="./img/looney-half-woman-1.png" class="home__illustration" alt="">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Meu nome é Beatriz!</h1>
+                    <h3 class="home__subttile">Desenvolvedora full-stack Javascript</h3>
+                    <p class="home__description">Estudante de Análise e Desenvolvimento de Sistemas da Univali e apaixonada por programação desde criança.</p>
+                    <a href="#contact" class="button button--flex">contato</a>
+                </div>
+            </div>
+
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <span class="home__scroll-name">Rolar pra baixo</span>
+                    <i class="fas fa-arrow-circle-down home__scroll-icon"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+        <h2 class="section__title">Sobre</h2>
+        <span class="section__subtitle">Mas só um pouco!</span>
+
+        <div class="about__container container grid">
+            <img src="./img/looney-bat-1.png" alt="" class="about__img">
+
+            <div class="about__data">
+                <p class="about__description">
+                    Meu nome é Beatriz, tenho 21 anos e sou estudante de Análise e Desenvolvimento de Sistemas na Universidade do Vale do Itajaí (Univali). Eu tive meu primeiro contato com programação aos 10 anos e até agora não parei! 
+                </p>
+
+                <div class="about__info">
+                    <div class="about__buttons">
+                        <a download="" href="" class="button button--flex">Meu currículo <i class="fas fa-file-download button__icon"></i></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+        <h2 class="section__title">Habilidades</h2>
+        <span class="section__subtitle">Tecnologias que eu uso</span>
+
+        <div class="skills__container container grid">
+
+            <div class="skills__content skills__open">
+                <div class="skills__header"><i class="fas fa-code skills__icon"></i>
+                <div>
+                    <h1 class="skills__title">Front End</h1>
+                </div>
+                <i class="fas fa-chevron-down skills__arrow"></i>
+                </div>
+
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">HTML</h3>
+                            <h3 class="skills__name">CSS</h3>
+                            <h3 class="skills__name">Javascript</h3>
+                            <h3 class="skills__name">Bootstrap</h3>
+                            <h3 class="skills__name">SASS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__content skills__close">
+                <div class="skills__header"><i class="fas fa-code-branch skills__icon"></i>
+                <div>
+                    <h1 class="skills__title">Back End</h1>
+                </div>
+                <i class="fas fa-chevron-down skills__arrow"></i>
+                </div>
+    
+                <div class="skills__list grid">
+                    <div class="skills__data">
+                        <div class="skills__titles">
+                            <h3 class="skills__name">NodeJS</h3>
+                            <h3 class="skills__name">MongoDB</h3>
+                            <h3 class="skills__name">Express</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="skills__content skills__close">
+            <div class="skills__header"><i class="far fa-edit skills__icon"></i>
+            <div>
+                <h1 class="skills__title">Ferramentas</h1>
+            </div>
+            <i class="fas fa-chevron-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+                <div class="skills__data">
+                    <div class="skills__titles">
+                        <h3 class="skills__name">Adobe XD</h3>
+                        <h3 class="skills__name">Photoshop</h3>
+                        <h3 class="skills__name">Illustrator</h3>
+                        <h3 class="skills__name">VSCode</h3>
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+
+
+        
+
+    </section>
+
+
+    <!--==================== PORTFOLIO ====================-->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Meus projetos</h2>
+        <span class="section__subtitle">Trabalhos mais recentes</span>
+
+        <div class="portfolio__container container">
+
+
+            <div class="portfolio__content grid">
+                <div class="portfolio__data">
+                    <img src="./img/looney-drops-1.png" class="title__drop">    <h3 class="portfolio__title">Titulo Projeto</h3>
+                    <br /><span class="project__skill">HTML</span> <span class="project__skill">CSSL</span>
+                    <img src="https://via.placeholder.com/350x150" class="project__placeholder">
+                    <p class="portfolio__description">Descrição do projeto</p>
+                    <a href="" class="button button--flex button--small">DEMO</a>  <a href="" class="button button--flex button--small">GITHUB</a>
+                </div>
+
+
+                <div class="portfolio__data">
+                    <img src="./img/looney-drops-1.png" class="title__drop"> <h3 class="portfolio__title">Titulo Projeto</h3>
+                    <br /><span class="project__skill">HTML</span> <span class="project__skill">CSSL</span>
+                    <img src="https://via.placeholder.com/350x150" class="project__placeholder">
+                    <p class="portfolio__description">Descrição do projeto</p>
+                    <a href="" class="button button--flex button--small">DEMO</a>  <a href="" class="button button--flex button--small">GITHUB</a>
+                </div>
+                
+            </div>
+
+        
+
+            <div class="portfolio__content grid">
+                <div class="portfolio__data">
+                    <img src="./img/looney-drops-1.png" class="title__drop">  <h3 class="portfolio__title">Titulo Projeto</h3>
+                    <br /><span class="project__skill">HTML</span> <span class="project__skill">CSSL</span>
+                    <img src="https://via.placeholder.com/350x150" class="project__placeholder">
+                    <p class="portfolio__description">Descrição do projeto</p>
+                    <a href="" class="button button--flex button--small">DEMO</a>  <a href="" class="button button--flex button--small">GITHUB</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contato</h2>
+        <span class="section__subtitle">Fale comigo</span>
+
+        <div class="contact__container container grid">
+            <div>
+                <div class="contact__information">
+                    <i class="fab fa-whatsapp contact__icon"></i>
+                    <div>
+                    <h3 class="contact__title">Whatsapp</h3>
+                    <span class="contact__subtitle">(11) 97088-2576</span>
+                </div>
+                </div>
+
+
+            <div>
+                <div class="contact__information">
+                    <i class="far fa-envelope contact__icon"></i>
+                    <div>
+                    <h3 class="contact__title">Email</h3>
+                    <span class="contact__subtitle">bea.graciast@gmail.com</span>
+                </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="contact__information">
+                    <i class="fas fa-map-marker-alt contact__icon"></i>
+                    <div>
+                    <h3 class="contact__title">Localização</h3>
+                    <span class="contact__subtitle">Itajaí - SC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <form  class="contact__form grid"
+            id="contact-form"
+            action="https://formspree.io/f/xayvwjek"
+            method="POST"
+            enctype="multipart/form-data">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="name" class="contact__label">Nome</label>
+                        <input class="contact__input form-control"
+                        id="name"
+                        name="name"
+                        type="text"
+                        required/>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Email</label>
+                        <input class="contact__input form-control"
+                        id="email"
+                        name="email"
+                        aria-describedby="emailHelp"
+                        required/>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Assunto</label>
+                        <input class="contact__input form-control"
+                        id="subject"
+                        name="subject"
+                        type="text"
+                        required/>
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Mensagem</label>
+                        <textarea cols="0" rows="7" class="contact__input form-control"
+                        id="message"
+                        name="message"
+                        class="form-control"
+                        required></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" value="submit" class="button button--flex">
+                            Enviar <i class="fas fa-paper-plane button__icon"></i>
+                          </button>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+</main>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+
+    <div class="footer__bg">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">Beatriz</h1>
+                <span class="footer__subtitle">full-stack javascript</span>
+            </div>
+
+            <ul class="footer__links">
+                <li>
+                    <a href="" class="footer__link">Sobre</a>
+                </li>
+                <li>
+                    <a href="" class="footer__link">Habilidades</a>
+                </li>
+                <li>
+                    <a href="" class="footer__link">Projetos</a>
+                </li>
+                <li>
+                    <a href="" class="footer__link">Portfolio</a>
+                </li>
+            </ul>
+
+            <div class="footer__socials">
+                <a href="https://www.linkedin.com/in/beatriz-gracia-dos-santos-2762bb21b/" class="footer__social" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="https://github.com/whathebea" class="footer__social" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.instagram.com/prinbee/" class="footer__social" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+    
+        </div>
+        <p class="footer__copyright">Ilustrações por <a class="footer__link" href="https://icons8.com/illustrations/author/602a6c5b01d0363186d3d950">Viktoriya Belyakova</a> do <a class="footer__link" href="https://icons8.com/illustrations">Ouch!</a></p>
+   
+     </div>
+    
+</footer>
+
+<!--==================== SCROLL TOP ====================-->
+<div class="scroll-up" id="scroll-up"><a href="#home"><i class="fas fa-arrow-up"></i></a></div>
+
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>
